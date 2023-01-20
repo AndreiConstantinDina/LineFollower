@@ -15,7 +15,7 @@
  - L293D motor driver
  - wires, breadboard, chassis
 
- ## Features & Parameters ⚙
+ ## Features & Parameters 
  - We made an automatic calibration for a few seconds by powering the right motor until the sensor is out of the line and after we power the left motor and so on.
  - Then we move the car left or right until the sensor is centered on the line.
  - We map the error from sensors to [-75, 75] interval and apply PID with kp = 20, ki = 0, kd = 5. 
